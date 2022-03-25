@@ -6,7 +6,7 @@ using namespace std;
 int n,m,fx,fy,bx,by;
 char s1[1001],s2[1001];
 int f[1001][1001],dis[1001][1001];
-int h1[1001],h2[1001],z1[1001],z2[1001];
+int h1[1000],h2[1001],z1[1001],z2[1001];
 void pre(){
     h1[0]=fx;z1[0]=fy;h2[0]=bx;z2[0]=by;
     for(int i=1;i<=n;i++){
